@@ -1,0 +1,93 @@
+body { background-color: var(--Dark-cyan);
+    width: 1440px;
+    
+}
+
+:root{
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Dark-gray: hsl(0, 0%, 59%)
+}
+
+img{
+    border-bottom: 50%;
+}
+
+.Victor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+    z-index: 3;
+    
+}
+    
+.bottom{
+    position: fixed;
+    top: 50%;
+    right: -15%;
+}
+
+.top{
+    position: fixed;
+    bottom: 40%;
+    left: -15%; 
+}
+    
+.favicon{
+    border-image-outset: 0ch;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+    z-index: 1; 
+}
+    
+.pattern-card{
+    margin-top: 200px;
+    margin-left: 580px;
+    border-radius: 10px;
+    z-index: -1;
+    
+    
+}
+
+.text{
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 80px;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: var(--Dark-gray);
+    
+   
+}
+
+.Name{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    color: black;
+   
+}
+ul{
+   list-style: none;
+   display: flex;
+   margin-left: 580px;
+   text-align: center;
+   border-top: 1px solid grey;
+   width: 315px;
+   background-color: rgb(255, 251, 251);
+   border-radius: 10px;
+}
+li{
+    margin-left: 35px;
+    text-align: center;
+    
+}
+
+p{
+    font-family: 'Kumbh Sans', sans-serif;  
+}
+
+

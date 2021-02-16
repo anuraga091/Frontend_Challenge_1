@@ -26,6 +26,7 @@ img{
     position: fixed;
     top: 50%;
     right: -15%;
+    
 }
 
 .top{
@@ -42,12 +43,13 @@ img{
     margin-right: -50%;
     transform: translate(-50%, -50%) ;
     z-index: 1; 
+    
 }
     
 .pattern-card{
     margin-top: 200px;
     margin-left: 580px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     z-index: -1;
     
     
@@ -55,12 +57,14 @@ img{
 
 .text{
     text-align: center;
-    margin-top: 80px;
-    margin-left: 80px;
+    margin-top: -4px;
     font-size: 18px;
     font-family: 'Kumbh Sans', sans-serif;
     color: var(--Dark-gray);
-    
+    max-width: 350px;
+    position: sticky;
+    left:580px;
+    padding-top: 100px;
    
 }
 
@@ -73,12 +77,12 @@ img{
 ul{
    list-style: none;
    display: flex;
-   margin-left: 580px;
    text-align: center;
    border-top: 1px solid grey;
-   width: 315px;
-   background-color: rgb(255, 251, 251);
-   border-radius: 10px;
+   width: 310px;
+   position: relative;
+  
+   
 }
 li{
     margin-left: 35px;
@@ -90,4 +94,12 @@ p{
     font-family: 'Kumbh Sans', sans-serif;  
 }
 
+.whole{
+    background-color:white;
+    max-width: 350px;
+    position: sticky;
+    left: 588px;
+    border-radius: 0px 0px 10px 10px;
+
+}
 
